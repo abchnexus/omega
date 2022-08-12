@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Good to see you again"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {"tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Products, Delivery, Shipping, Payments and can make you laugh too.",
+        "Offering support for Product Catalogue, Delivery, Shipping and Payment details."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What products do you have?",
+        "What kinds of items are there?",
+        "What kinds of products are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell mobiles, books, watches, shoes, and more.",
+        "We have items in electronics, automotive, cookware & dining, computer accessories, beauty care and much more."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What about payment methods?",
+        "What payment methods do you accept?"
+      ],
+      "responses": [
+        "We accept RuPay, VISA, Mastercard and Paypal",
+        "We accept most major credit, debit cards, Rupay and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "cod",
+      "patterns": [
+        "Do you accept cash on delivery?",
+        "Is COD available?"
+      ],
+      "responses": [
+        "Cash on delivery service is availble only for selected regions. Please check the delivery page!",
+        "Due to COVID, COD might be restricted in some places. However we try our best to deliver in the zones availble on our website."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh"
+      ],
+      "responses": [
+        "Why do bees have sticky hair? 'Coz they use honeycombs!",
+        "Did you hear about the mathematician who is afraid of negative numbers? He will stop at nothing to avoid them.",
+        "Why don't scientists trust atoms? Because they make up everything.",
+        "What did the left eye say to the right eye? Between you and me, something smells.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What is an astronaut's favorite part on a computer? The space bar."
+      ]
+    }
+  ]
+}
