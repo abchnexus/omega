@@ -1,5 +1,8 @@
 # Omega
 A chat-bot using PyTorch and Deep Learning &amp; integrated to a website using Flask &amp; JavaScript.
+
+## Demo
+![](https://github.com/abchnexus/omega/blob/main/Omega_Demo.gif)
 > Note: Following commands are best suited for Linux. However there might not be any drastic changes in commands for other OS like Windows.
 
 ### Create virtual environment for better setup
