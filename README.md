@@ -1,5 +1,5 @@
 # Omega
-A chat-bot using PyTorch and Deep Learning &amp; integrated to a website using Flask &amp; JavaScript.
+A chat-bot using PyTorch, Deep Learning &amp; integrated to a website using Flask &amp; JavaScript.
 
 ## Demo
 ![](https://github.com/abchnexus/omega/blob/main/Omega_CB_Demo.gif)
